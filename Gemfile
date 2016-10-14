@@ -16,6 +16,9 @@ gem "devise-async"
 gem "figaro"
 gem "sidekiq"
 gem 'rubocop', '~> 0.44.1', require: false
+gem 'pronto'
+gem 'pronto-rubocop', require: false
+gem 'pronto-flay', require: false
 
 group :development, :test do
   gem "byebug", platform: :mri
